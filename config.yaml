@@ -1,7 +1,7 @@
-name: "Hello world"
-description: "My first real add-on!"
+name: "rtl_tcp"
+description: "homeassistant rtl_tcp"
 version: "1.0.0"
-slug: "hello_world"
+slug: "rtl_tcp slug"
 init: false
 arch:
   - aarch64
