@@ -1,7 +1,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-RUN apk add git
+RUN apk add git \
+    rtl-sdr
 
 RUN git clone https://github.com/legacycode/rtlsdr-docker
 WORKDIR ./rtlsdr-docker
