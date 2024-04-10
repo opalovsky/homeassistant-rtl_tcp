@@ -1,6 +1,6 @@
 name: "rtl_tcp"
 description: "homeassistant rtl_tcp"
-version: "1.0.7"
+version: "1.0.8"
 slug: "rtl_tcp"
 init: false
 arch:
