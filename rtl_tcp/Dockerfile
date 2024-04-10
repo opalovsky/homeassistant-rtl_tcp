@@ -10,4 +10,5 @@ COPY run.sh /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
-while true; do sleep 1000; done
+
+CMD tail -f /dev/null
